@@ -3,7 +3,14 @@ import './App.css'
 
 const App = () => {
   return (
-    <h2 className='text-2xl font-bold text-cyan-500'>This Is a arrow component</h2>
+    <main>
+      <div className='pattern'>
+
+      </div>
+      <div className='wrapper'>
+        <h1>Find <span className='text-gradient'>Movies</span> You Will Enjoy Without Hassle.</h1>
+      </div>
+    </main>
   )
 }
 
