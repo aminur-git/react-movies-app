@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Search from './Components/Search'
+import Spinner from './Components/Spinner'
 
 const App = () => {
 
@@ -77,16 +78,18 @@ const App = () => {
         </header>
 
         <section className='all-movies'>
-          <h2>All Movies</h2>
-          {loading ? (<p className='text-white'>Loading...</p>) : errorMessage ? (<p className='text-red-500'>{errorMessage}</p>) : (
-            <ul className='text-white'>
-              {movieList.map((movie) => (
-                <li key={movie.id}>
-                  <h3>{movie.title}</h3>
-                </li>
-              ))}
-            </ul>
-          )}
+          <h2 className='mt-[40px]'>All Movies</h2>
+          {loading ?
+            (<Spinner />) : errorMessage ? (<p className='text-red-500'>{errorMessage}</p>)
+              : (
+                <ul className='text-white'>
+                  {movieList.map((movie) => (
+                    <li key={movie.id}>
+                      <h3>{movie.title}</h3>
+                    </li>
+                  ))}
+                </ul>
+              )}
         </section>
       </div>
     </main>
