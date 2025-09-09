@@ -25,13 +25,19 @@ const App = () => {
   }
 
   // fetch movies
-  const fetchMovies = async () => {
+  const fetchMovies = async (query = '') => {
     try {
       setLoading(true)
       setErrorMessage('')
 
 
-      const endPoint = `${API_BASE_URL}/discover/movie?short_by=popularity.desc`
+      const endPoint =
+        query
+          ?
+          `${API_BASE_URL}/search/movie?query=${encodeURIComponent(query)}`
+          :
+          `${API_BASE_URL}/discover/movie?short_by=popularity.desc`
+
       const response = await fetch(endPoint, API_OPTIONS)
 
 
@@ -63,8 +69,8 @@ const App = () => {
 
 
   useEffect(() => {
-    fetchMovies()
-  }, [])
+    fetchMovies(searchTerm)
+  }, [searchTerm])
 
 
   return (
@@ -75,7 +81,7 @@ const App = () => {
           <img src="./hero.png" alt="" />
           <h1>Find <span className='text-gradient'>Movies</span> You Will Enjoy Without Hassle.</h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-          <h1 className='text-white'>{searchTerm}</h1>
+          {/* <h1 className='text-white'>{searchTerm}</h1> */}
         </header>
 
         <section className='all-movies'>
