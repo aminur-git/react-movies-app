@@ -51,7 +51,7 @@ Built with **React.js** for the user interface, **Appwrite** for backend service
 <p align="center">
   <img src="https://i.ibb.co.com/N2hqHHHm/i-Phone-11-PRO-react-movies-app-4mi-netlify-app.png" height="500px" alt="App Screenshot" style="margin:5px;" />
   
-  <img width="400" height="902" alt="image" src="https://github.com/user-attachments/assets/ec64c66c-df66-44f8-8442-888548c4465b" style="margin:5px;" />
+  <img width="350" height="902" alt="image" src="https://github.com/user-attachments/assets/ec64c66c-df66-44f8-8442-888548c4465b" style="margin:5px;" />
   
   <img width="" height="500" alt="image" src="https://github.com/user-attachments/assets/29a22e3a-f655-4b1c-a174-67cbd5beb399" style="margin:5px;" />
 </p>
