@@ -1,12 +1,71 @@
-# React + Vite
+# 🎬 React Movies App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** [react-movies-app-4mi.netlify.app](https://react-movies-app-4mi.netlify.app/)  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+  <img src="https://i.ibb.co.com/TDSwWncB/hero.png" alt="Hey! I am Aminur" />
+</p>
 
-## Expanding the ESLint configuration
+<p align="center">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Appwrite-F02E65?style=for-the-badge&logo=appwrite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E" />
+</p>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🤖 Introduction  
+Built with **React.js** for the user interface, **Appwrite** for backend services, and styled with **TailwindCSS**, this Movie App lets users browse trending movies, search titles, and explore content using the **TMDB API**.  
+
+✨ Features a **modern UI**, **responsiveness**, and a **scalable code architecture** designed for both performance and maintainability.  
+
+---
+
+## ⚙️ Tech Stack  
+
+- 🔐 [**Appwrite**](https://appwrite.io/) → Open-source Backend-as-a-Service (BaaS) for authentication, databases, storage & more.  
+- ⚛️ [**React.js**](https://react.dev/) → JavaScript library for building fast, reusable, and scalable UI components.  
+- 🔄 [**React-use**](https://github.com/streamich/react-use) → Collection of essential React hooks for cleaner and more maintainable code.  
+- 🎨 [**Tailwind CSS**](https://tailwindcss.com/) → Utility-first CSS framework for rapid and responsive UI design.  
+- ⚡ [**Vite**](https://vitejs.dev/) → Lightning-fast build tool with HMR and optimized production builds.  
+
+---
+
+## 🔋 Features  
+
+- 👉 **Browse All Movies** → Explore a wide range of movies available on the platform.  
+- 👉 **Search Movies** → Instantly find movies using the built-in search function.  
+- 👉 **Trending Movies Algorithm** → Dynamic algorithm to display trending titles.  
+- 👉 **Modern UI/UX** → Sleek, intuitive, and user-friendly interface.  
+- 👉 **Responsiveness** → Fully responsive design, works seamlessly on all devices.  
+- 👉 **Code Architecture & Reusability** → Clean, modular, and scalable codebase.  
+- 👉 **And Many More...** 🚀  
+
+---
+
+## 📸 Screenshots  
+
+<p align="center">
+  <img src="https://i.ibb.co.com/N2hqHHHm/i-Phone-11-PRO-react-movies-app-4mi-netlify-app.png" height="500px" alt="App Screenshot" />
+  <img src="https://i.ibb.co.com/ZR5hTRYF/Galaxy-Fold2-react-movies-app-4mi-netlify-app.png" height="500px" alt="App Screenshot" />
+ 
+</p>
+
+---
+
+## 📦 Installation  
+
+```bash
+# clone the repo
+git clone https://github.com/aminur-git/react-movies-app
+
+cd react-movies-app
+
+# install dependencies
+npm install
+
+# start the development server
+npm run dev
